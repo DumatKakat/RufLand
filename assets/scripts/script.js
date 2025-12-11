@@ -20,9 +20,6 @@ arrowDown.style.transform = 'rotate(0deg)';
 const burgerBut = document.querySelector("#burger__but");
 
 burgerBut.addEventListener('click', ()=>{
-    // const burgerButActive = document.querySelector(".burger__but__active");
-    // console.log(burgerButActive);
-    
     if (burgerBut.classList.contains("burger__but__active")) {
         body.style.overflowY = "";
             burgerBut.classList.remove("burger__but__active")
@@ -33,7 +30,6 @@ burgerBut.addEventListener('click', ()=>{
         burgerBut.classList.add("burger__but__active")
         const headerMenu = document.querySelector("#header__menu");
         headerMenu.classList.add("header__menu__active");
-        
     }
 })
 
