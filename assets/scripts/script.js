@@ -35,3 +35,14 @@ burgerBut.addEventListener('click', ()=>{
 
 // }
 
+const dropDownBut = document.querySelectorAll(".drop-down-list");
+
+dropDownBut.forEach(element => {
+    element.addEventListener('click', ()=>{
+        if (element.classList.contains("drop-down-list__active")) {
+            element.classList.remove('drop-down-list__active')
+        }else{
+            element.classList.add('drop-down-list__active')
+        }
+    })
+});
