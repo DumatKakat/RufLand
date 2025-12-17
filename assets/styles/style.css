@@ -1196,6 +1196,11 @@ header {
   color: var(--black-2);
   font-weight: 600;
 }
+.footer__subtitle > *:last-child,
+.subtitle__contact {
+  font-weight: 400;
+  color: var(--black-2);
+}
 
 .footer__subtitle > .subtitle__contact {
   display: flex;
