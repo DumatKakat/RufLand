@@ -24,90 +24,108 @@
 
 <body>
     <header class="header">
-        <div class="header__main">
-            <div class="container header__content">
-                <div class="header__info">
-                    <div class="info__content">
-                        <a class="logo" href="#">
-                            <img src="./assets/img/logo.svg" alt="Рауфленд" class="img">
-                        </a>
-                        <div class="header__contact">
-                            <div class="contact__info">
-                                <div class="header__phone" id="header__phone">
-                                    <img src="./assets/img/phones.svg" alt="">
-                                    <span class="header__number">+375 29 628 20 09</span>
-                                    <span class="arrow__down" id="arrow__down"></span>
-                                </div>
-                                <a class="header__ring" href="#">Заказать звонок</a>
-                            </div>
-                            <div id="modal__overlay"></div>
-                            <div class="header__modal" id="header__modal">
-                                <div class="modal__item">
-                                    <div class="item__title">
+        <div class="header__top">
+            <div class="header__main">
+                <div class="container header__content">
+                    <div class="header__info">
+                        <div class="info__content">
+                            <a class="logo" href="#">
+                                <img src="./assets/img/logo.svg" alt="Рауфленд" class="img">
+                            </a>
+                            <div class="header__contact">
+                                <div class="contact__info">
+                                    <div class="header__phone" id="header__phone">
                                         <img src="./assets/img/phones.svg" alt="">
-                                        <a class="header__number" href="tel:+375296282009">+375 29 628 20 09</a>
+                                        <span class="header__number">+375 29 628 20 09</span>
+                                        <span class="arrow__down" id="arrow__down"></span>
                                     </div>
+                                    <a class="header__ring" href="#">Заказать звонок</a>
                                 </div>
-                                <div class="modal__item">
-                                    <div class="item__title">
-                                        <img src="./assets/img/home-modern-pin.svg" alt="">
-                                        <span>Офис-склад в Минске</span>
+                                <div id="modal__overlay"></div>
+                                <div class="header__modal" id="header__modal">
+                                    <div class="modal__item">
+                                        <div class="item__title">
+                                            <img src="./assets/img/phones.svg" alt="">
+                                            <a class="header__number" href="tel:+375296282009">+375 29 628 20 09</a>
+                                        </div>
                                     </div>
-                                    <div class="item__text">
-                                        г.Минск ул. Ваупшасова 22
+                                    <div class="modal__item">
+                                        <div class="item__title">
+                                            <img src="./assets/img/home-modern-pin.svg" alt="">
+                                            <span>Офис-склад в Минске</span>
+                                        </div>
+                                        <div class="item__text">
+                                            г.Минск ул. Ваупшасова 22
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="modal__item">
-                                    <div class="item__title">
-                                        <img src="./assets/img/time-clock.svg" alt="">
-                                        <span>Время работы</span>
-                                    </div>
-                                    <div class="item__text">
-                                        <span class="item__bold">Пн-пт:</span> С 9:00 до 18:00
-                                    </div>
-                                    <div class="item__text">
-                                        <span class="item__bold">Сб-вс:</span> по согласованию
+                                    <div class="modal__item">
+                                        <div class="item__title">
+                                            <img src="./assets/img/time-clock.svg" alt="">
+                                            <span>Время работы</span>
+                                        </div>
+                                        <div class="item__text">
+                                            <span class="item__bold">Пн-пт:</span> С 9:00 до 18:00
+                                        </div>
+                                        <div class="item__text">
+                                            <span class="item__bold">Сб-вс:</span> по согласованию
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="header__media">
+                                <a href="#">
+                                    <img src="./assets/img/youtube.svg" alt="youtube">
+                                </a>
+                                <a href="#">
+                                    <img src="./assets/img/instagram.svg" alt="telegram">
+                                </a>
+                                <a href="#">
+                                    <img src="./assets/img/tik_tok.svg" alt="tik_tok">
+                                </a>
+                            </div>
                         </div>
-                        <div class="header__media">
-                            <a href="#">
-                                <img src="./assets/img/youtube.svg" alt="youtube">
-                            </a>
-                            <a href="#">
-                                <img src="./assets/img/instagram.svg" alt="telegram">
-                            </a>
-                            <a href="#">
-                                <img src="./assets/img/tik_tok.svg" alt="tik_tok">
-                            </a>
-                        </div>
-                    </div>
-                    <button class="burger__but" id="burger__but">
-                        <!-- <img src="./assets/img/burger.svg" alt=""> -->
-                    </button>
-                </div>
-                <div class="header__actions">
-                    <div class="header__search">
-                        <button class="but__search">
-                            <img src="./assets/img/search-loap.svg" alt="">
+                        <button class="burger__but" id="burger__but">
                         </button>
-                        <input class="search__input" type="text" placeholder="Найти в катологе">
                     </div>
-                    </input>
-                    <button class="but__market">
-                        Интернет-магазин
-                    </button>
-                    <button class="but__cost but__main__active">
+                    <div class="header__actions">
+                        <div class="header__search">
+                            <button class="but__search">
+                                <img src="./assets/img/search-loap.svg" alt="">
+                            </button>
+                            <input class="search__input" type="text" placeholder="Найти в катологе">
+                        </div>
+                        </input>
+                        <button class="but__market">
+                            Интернет-магазин
+                        </button>
+                        <button class="but__cost but__main__active">
+                            Рассчитать стоимость
+                        </button>
+                    </div>
+                </div>
+                <div class="header__actions__mobile container">
+                    <div class="actions__link">
+                        <a href="#">
+                            <img src="./assets/img/viber-logo.svg" class="img" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/img/telegram-logo.svg" class="img" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/img/whatsapp.svg" class="img" alt="">
+                        </a>
+                    </div>
+                    <button class="actions-mobile__but but__main__active">
+                        <img src="./assets/img/calculator.svg" alt="">
                         Рассчитать стоимость
                     </button>
                 </div>
-            </div>
-            <div class="header__search__mobile container">
-                <button class="but__search__mobile">
-                    <img src="./assets/img/search-loap.svg" alt="">
-                </button>
-                <input class="search__input__mobile" type="text" placeholder="Найти в катологе">
+                <!-- <div class="header__search__mobile container">
+                    <button class="but__search__mobile">
+                        <img src="./assets/img/search-loap.svg" alt="">
+                    </button>
+                    <input class="search__input__mobile" type="text" placeholder="Найти в катологе">
+                </div> -->
             </div>
             <div class="header__menu" id="header__menu">
                 <div class="menu__inner container">
