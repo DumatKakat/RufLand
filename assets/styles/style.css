@@ -211,6 +211,7 @@ header {
   .illustration__phone {
     display: flex;
     justify-content: end;
+    align-items: center;
   }
   .illustration__but {
     width: 100%;
